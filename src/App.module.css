@@ -1,0 +1,22 @@
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(to right, #fff0f5, #ffe4e1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  font-size: 3rem;
+  color: #b03060;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #6b2e53;
+}

@@ -1,0 +1,44 @@
+.testimonials {
+  background: #fff;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #c02664;
+  font-family: 'Playfair Display', serif;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background: #fff0f4;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.text {
+  font-style: italic;
+  color: #555;
+}
+
+.name {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #222;
+}

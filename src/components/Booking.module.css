@@ -1,0 +1,37 @@
+.booking {
+  padding: 4rem 2rem;
+  background: #fefefe;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #111;
+}
+.form {
+  display: grid;
+  gap: 1rem;
+}
+.form input,
+.form select,
+.form textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.form button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  background-color: #e91e63;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.form button:hover {
+  background-color: #c2185b;
+}
